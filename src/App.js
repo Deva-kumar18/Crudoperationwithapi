@@ -70,7 +70,7 @@ function App() {
   };
 
   const handleDeletes = (id) => {
-    axios.delete(`https://example.com/api/data/${id}`) 
+    axios.delete(`'https://fakestoreapi.com/products'${id}`) 
       .then(() => {
         fetchData();
       })
